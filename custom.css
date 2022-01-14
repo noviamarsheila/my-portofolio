@@ -1,0 +1,65 @@
+a.navbar-brand {
+  font-weight: 700;
+  text-indent: 3px;
+}
+.navbar {
+  background-color: #01dfbe;
+}
+a.nav-link {
+  font-weight: 400;
+  color: #000000 !important;
+}
+a.nav-link:hover {
+  color: #000000;
+  font-weight: 600;
+}
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+}
+.namaku {
+  font-size: 23px;
+  font-weight: 500;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+}
+.about-box {
+  max-width: 390px;
+  align-self: center;
+  margin-left: 100px;
+}
+section#about {
+  background-color: #b9f1d6;
+}
+.img2 {
+  float: right;
+}
+.skills-box {
+  max-width: 450px;
+  align-self: center;
+  margin-right: 100px;
+}
+section#certificate {
+  background-color: #b9f1d6;
+}
+#insta a:hover {
+  color: #000000;
+}
+@media only screen and (max-width: 460px) {
+  .about-box {
+    margin-left: 0;
+  }
+  .img2 {
+    max-width: 350px;
+  }
+  .skills-box {
+    max-width: 350px;
+    align-self: center;
+    margin-right: 0;
+  }
+  .img3 {
+    max-width: 300px;
+  }
+}
